@@ -13,11 +13,11 @@ Provides basic redaction of the text for web publish:
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
 
 # Requirements
-'''
+```
 pip3 install -r requirements.txt
-'''
+```
 # Start
-'''
+```
 python3 server.py
-'''
+```
 By [link](http://localhost:5000) everything should be clear
