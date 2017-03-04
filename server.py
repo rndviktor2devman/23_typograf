@@ -9,7 +9,7 @@ def form():
     return render_template('form.html')
 
 
-@app.route('format', methods=['POST'])
+@app.route('/format', methods=['POST'])
 def nice_format():
     text = text_format(request.form['text'])
     return text
