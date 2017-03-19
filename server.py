@@ -11,10 +11,8 @@ def form():
 
 @app.route('/', methods=['POST'])
 def nice_format():
-    print('here we are')
     input_text = request.form['text']
     result = text_format(input_text)
-    print(result)
     return render_template('form.html', text=(input_text, result))
 
 if __name__ == "__main__":
